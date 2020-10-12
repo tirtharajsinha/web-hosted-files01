@@ -1,5 +1,5 @@
 
-
+<!--
 <?php
 $insert = false;
 if(isset($_POST['name'])){
@@ -42,7 +42,7 @@ if(isset($_POST['name'])){
     $con->close();
 }
 ?>
-
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,6 +50,11 @@ if(isset($_POST['name'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tsidealONEidentity_main_page_feedback_form</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto|Sriracha&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <script src="index.js" type="text/javascript">
@@ -60,6 +65,12 @@ if(isset($_POST['name'])){
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Sorry !!</strong> the Database structure of this form is under-maintenance for some time,it will back shortly,have a grate day. 
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
   <h1 class="about-set black"><b>visitors feedback form</b></h1>
   <p class="about-set black">.....Your are one step to go to make a good bonding.....</p><br><br><br>
 
@@ -101,6 +112,8 @@ if(isset($_POST['name'])){
 <br>
 
 </div>
-
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
