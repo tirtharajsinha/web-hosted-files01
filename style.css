@@ -1,0 +1,789 @@
+
+*{
+
+  padding:0px;
+  box-sizing:border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background: linear-gradient(to right, #0099ff 0%, #00cc99 100%);
+  position: fixed;
+  width:100%;
+  padding-bottom:0px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+   background: linear-gradient(to bottom left, #00ffff 0%, #ff66ff 100%);
+  color: black;
+}
+
+.topnav a.active {
+background: linear-gradient(to right, #00ffff 0%, #0099ff 100%);
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .full-width{width:100%;}
+
+
+}
+
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+#mySidenav a {
+position: fixed;
+right: -145px;
+transition: 0.3s;
+padding: 15px;
+width: 180px;
+text-decoration: none;
+font-size: 20px;
+color: white;
+border-radius: 0 5px 5px 10px;
+}
+
+#mySidenav a:hover {
+right: 0;
+
+}
+
+#about {
+top: 60px;
+background: black;
+
+}
+
+#blog {
+top: 130px;
+background: linear-gradient(to top, #9933ff 0%, #ff3399 100%);
+
+}
+
+#projects {
+top: 200px;
+background: linear-gradient(to bottom, #0000cc 0%, #0000ff 100%);
+
+}
+
+#twitter {
+top: 270px;
+
+background: linear-gradient(to bottom, #3333ff 0%, #6699ff 100%);
+}
+#mail{
+  top:340px;
+  background-color: #ff4d4d;
+}
+.home-bg{
+   background-image: url(home-bg.jpg);
+    background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   background-color: #464646;
+   width:100%;
+   height:auto;
+}
+
+
+.full-width{width:100%;}
+
+.bg{
+  width:100%;
+  position:relative;
+  z-index: -1;
+}
+.backg{
+  background-image: url("home1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  z-index: -1;
+}
+
+.bottom-lefttext {
+  position: absolute;
+  top:540px;
+  left: 20px;
+  font-size: 20px;
+  border:0px solid;
+  width: 250px;
+  height:45px;
+  margin:auto;
+  background-color: white;
+  opacity: 0.4;
+  color:black;
+  text-align:center;
+}
+.bottom-lefttext a{
+  text-decoration: none;
+  color:black;
+  text-align:center;
+  margin:auto;
+
+}
+.opc:hover{
+  opacity: 0.6;
+}
+.headcontainer {
+  position:relative;
+  text-align: center;
+  color: white;
+}
+.fixed{
+  position: fixed;
+}
+.container{
+  max-width="80%";
+
+  color:green;
+  padding:3px;
+  margin:auto;
+  border:2px solid white;
+  border-radius: 6px;
+  font-family: 'Fondamento', cursive;
+
+}
+
+}
+.border{
+  border:2px solid white;
+  border-radius: 6px;
+}
+.center{
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.set-margin{
+  margin:5px;
+}
+.about-set{
+  color:cyan;
+  margin:auto;
+  text-align:center;
+}
+.about-des{
+  width:90%;
+  font-size: 14px;
+  text-align: center;
+  margin:auto;
+  color:#999999;
+}
+.about-des1{
+  width:90%;
+  font-size: 16px;
+  text-align: center;
+  margin:auto;
+  color:#8c8c8c;
+}
+.about-img{
+  width:80%;
+  height:100%;
+}
+
+.about{
+  width:100%;
+  margin:auto;
+
+
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: auto;
+  text-align: center;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.about-bor{
+  border:2px solid #aaa
+}
+.row{
+  border:5px solid #e6e6e6;
+  border-radius: 7px;
+}
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+/* .container{
+  background:white;
+  pading:10px;
+}
+.parallax{
+  width:100%;
+  height:500px;
+  z-index: -1;
+  position: fixed;
+} */
+.container{
+  max-width: 100%;
+  margin:0 auto;
+  background: #f9f9f9:
+  padding:0px;
+
+
+}
+.parallax0 {
+    background:url("home1.jpg") no-repeat center;
+    background-size:cover;
+    background-attachment: fixed;
+    height:590px;
+}
+@media screen and (max-width: 600px) {
+  .parallax0 {
+    background-image: url("home2.jpg");
+  }
+}
+.parallax1 {
+    background:url("https://res.cloudinary.com/springboard-images/image/upload/q_auto,f_auto,fl_lossy/wordpress/2019/07/sb-blog-programming.png") no-repeat center;
+    background-size:cover;
+    background-attachment: fixed;
+    height:250px;
+
+
+}
+.parallax2 {
+    background:url("https://www.andplus.com/hs-fs/hubfs/shutterstock_603909227.jpg?width=320&name=shutterstock_603909227.jpg") no-repeat center;
+    background-size:cover;
+    background-attachment: fixed;
+    height:250px;
+
+
+}
+.parallax3 {
+    background:url("https://isralduke-site-files.s3.amazonaws.com/images/website-single-sign-on-designed-isral-duke.jpg") no-repeat center;
+    background-size:cover;
+    background-attachment: fixed;
+    height:250px;
+
+
+}
+.parallax4 {
+    background:url("https://www.vwfs.co.in/content/dam/bluelabel/valid/www-vwfs-co-in/images/Contact%20us-%202-1%20-%203000%20px%20X%201500px.jpg.xxl.jpg") no-repeat center;
+    background-size:cover;
+    background-attachment: fixed;
+    height:250px;
+
+
+}
+.parallax5 {
+    background:url("https://www.chatelaine.com/wp-content/uploads/2019/02/gallery-wall-art-is-anything-Sun-Ngo.jpg") no-repeat center;
+    background-size:cover;
+    background-attachment: fixed;
+    height:250px;
+
+
+}
+
+
+.about-head{
+  text-align: center;
+  color:gray;
+  margin:auto auto;
+  font-family: fantasy;
+  border:5px solid gray;
+  height: auto;
+  width:200px;
+  font-size: 40px;
+  top:80px;
+  margin-block-end: 1em;
+}
+.about-head1{
+  text-align: center;
+  color:purple;
+  margin:auto auto;
+  font-family:Jokerman;
+  border:5px solid purple;
+  height: auto;
+  width:350px;
+  font-size: 40px;
+  top:80px;
+  margin-block-end: 1em;
+}
+.column-me {
+  float: left;
+
+  padding: 10px;
+  height: auto;
+  padding: 15px;
+
+
+  /* Should be removed. Only for demonstration */
+}
+.column40{
+  width: 40%;
+  margin-right:10px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+  padding:0px;
+}
+.column60{
+  width: 58%;
+  padding-top:0px;
+  padding: 0px;
+}
+.column60-sub{
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+  margin-bottom: 14px;
+  background-color:#ffe6cc;
+}
+.button-link{
+  width:200px;
+  height:50px;
+  font-size: 20px;
+  text-align: center;
+  color:black;
+  opacity: 0.6;
+  background-color: #f2f2f2;
+}
+.button-link:hover{
+  opacity:0.8;
+}
+.me-pad{
+  padding-left: 20px;
+}
+/* Clear floats after the columns */
+.row-me:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column-me {
+    width: 100%;
+  }
+  .row-me{
+
+  }
+}
+  .me-text{
+    color:cyan;
+    font-family: fantasy;
+}
+.fullbar{
+  width:90%;
+
+  background-color:gray;
+  border:0px solid gray;
+  border-radius:10px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.4);
+}
+.probar{
+
+
+  background-color:cyan;
+  border:2px solid cyan;
+  border-radius:10px;
+  margin:0px;
+  padding:0px;
+  height:10px;
+}
+.middle{
+  text-align:center;
+  padding:0px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  color:black;
+  font-size: 12px;
+}
+h2{
+  font-family: 'Cooper'
+}
+.probar1{
+  background: linear-gradient(to right, #66ff66 0%, #00ffff 88%);
+  border:2px solid;
+  border-radius:10px;
+  margin:0px;
+  padding:0px;
+
+}
+.newcolor{
+  color:#ff4d4d;
+}
+.newcolor1{
+  color:#00ffbf;
+}
+.column-pro {
+  float: left;
+  width: 23%;
+  padding: 0px;
+  height: 350px;
+  margin-bottom: 20px;
+  border:0px solid;
+  border-radius: 10px;
+
+   /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+.row-pro:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row-pro{
+  margin:auto;
+  width:100%;
+  align-items: center;
+}
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-pro {
+    width: 60%;
+    align-items: center;
+    margin-left: 50px;
+  }
+}
+
+.project{
+
+  width:100%;
+  margin:auto;
+}
+.r-margin{
+  margin-right:20px;
+}
+.cardimg{
+  width:100%;
+  height:150px;
+  border-radius: 10px 10px 0 0;
+  opacity: 0.8;
+}
+.cardimg:hover{
+  opacity: 1.0;
+}
+.card {
+  box-shadow: 0 16px 16px 0 rgba(0,0,0,0);
+  transition: 0.3s;
+
+
+
+}
+
+.card:hover {
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.4), 0 10px 12px 0 rgba(0, 0, 0, 0.4);
+  background-color: #ffe6cc;
+}
+.cred{
+  background-color: #ff8080;
+  color:white;
+  text-align: center;
+}
+.cred:hover{
+  background-color: red;
+}
+.contacts{
+
+}
+.black{
+  color:black;
+}
+.my-form{
+  width:100%;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/151/265/original/cartoon-map-vector.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin:auto;
+  height:600px;
+
+
+}
+.database{
+  width: 60%;
+  padding:3px;
+  margin:40px auto;
+  opacity: 0.5;
+  border:2px solid white;
+  border-radius: 6px;
+  background-color: white;
+  top:150px;
+}
+.database:hover{
+  opacity:0.8;
+
+}
+input{
+  display:block;
+  width: 80%;
+  margin:11px;
+  padding:7px;
+  font-size: 16px;
+  border:2px solid black;
+  border-radius: 6px;
+
+  color:black;
+  font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width: 600px) {
+  .database{
+    width: 70%;
+  }
+  input{
+    font-size: 14px;
+
+  }
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.btn{
+  color:white;
+  background-color: purple;
+  padding:8px 12px;
+  font-size: 20px;
+  border:2px solid purple;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.submsg{
+  font-size: 20px;
+  color:purple;
+}
+#feedback{
+  width:80%;
+  height: auto;
+}
+.footer{
+  background: #000000;
+
+}
+.footer-icon a{
+  text-decoration: none;
+}
+.footer-icon a:hover{
+  color:gray;
+}
+.footer{
+  text-align: center;
+}
+.ref-link a{
+  text-decoration: none;
+  color:
+}
+.ref-link a:hover{
+  color:green;
+}
+
+.branding:hover{
+  color:#e08119;
+}
+.overf{
+
+
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(to right, #ffffcc 36%, #00ffff 101%);
+  overflow: auto;
+}
+.gal-col{
+  float: left;
+  padding: 0px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.gal-left{
+
+  width: 25%;
+
+}
+.gal-right{
+   width: 70%;
+   margin-right:15px;
+
+   float: center;
+}
+.gal-row{
+  display: flex;
+
+}
+
+.gal-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.crop-img{
+  width: 300px;
+  height:auto;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.4), 0 10px 12px 0 rgba(0, 0, 0, 0.4);
+
+}
+.large-img{
+  height: 300px;
+  width: auto;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.4), 0 10px 12px 0 rgba(0, 0, 0, 0.4);
+}
+.column12 img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column12 img:hover {
+  opacity: 1;
+}
+.row12{
+  display:flex;
+}
+/* Clear floats after the columns */
+.row12:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container12 {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+.contact-redir{
+  background-image: url("https://previews.123rf.com/images/moloko88/moloko881502/moloko88150200014/36385927-cartoon-map-with-river.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height:400px;
+
+}
+.bottom-lefttext1 {
+
+  top:350px;
+  left: 20px;
+  font-size: 20px;
+  border:2px dotted green;
+  width: 200px;
+  height:45px;
+  margin:auto;
+  background-color:green;
+  opacity: 1;
+  color:black;
+
+}
+.bottom-lefttext1 a{
+  text-decoration: none;
+  color:black;
+  text-align:center;
+  margin:auto;
+
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: green;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to right, #ffffcc 36%, #00ffff 101%);
+}
+.but-on{
+  width: 200px;
+  height:40px;
+  background-color: black;
+  color:white;
+  text-align: center;
+  margin:auto;
+  border:2px dotted white;
+  border-radius: 5px;
+
+}
+.but-on a{
+  text-decoration: none;
+  color:white;
+  text-align:center;
+  margin:auto;
+
+}
